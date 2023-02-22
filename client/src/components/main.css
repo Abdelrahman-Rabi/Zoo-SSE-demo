@@ -1,0 +1,85 @@
+.dashboard-container {
+	background-color: #202831;
+	color: white;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.widgets-container {
+	display: flex;
+	flex-direction: row;
+	gap: 60px;
+}
+
+.widget-container {
+	border: 1px solid white;
+	width: 300px;
+}
+
+.category-container {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.btn {
+	background-color: #1142bc;
+	color: white;
+	height: 40px;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 400;
+	/* margin-top: 30px; */
+	padding: 10px 15px;
+	border: none;
+}
+
+.btn-card {
+    background-color: #0e172b;
+    color: white;
+    height: 90px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+    padding: 10px 15px;
+    border: none;
+    width: 300px;
+}
+
+.input {
+    background: none;
+    border: 1px solid #a69e9e7d;
+    border-radius: 3px;
+    height: 30px;
+    margin: 0px 20px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    width: 50px;
+}
+
+.category-card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.cards-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.settings-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
